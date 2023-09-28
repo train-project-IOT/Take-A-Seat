@@ -1,4 +1,4 @@
-# Take-A-Seat#
+# Take-A-Seat
 
 ## Take-A-Seat Project by : Shoham Dahan, Tamar Gozlan, Noa Admoni
 
