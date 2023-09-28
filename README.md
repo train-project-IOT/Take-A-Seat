@@ -23,7 +23,7 @@ XXXX - version XXXXX
 
 Project Poster:
 
-[Poster - Group12 - Train.project.with.force.sensors.pdf](https://github.com/train-project-IOT/Take-A-Seat/files/12748967/Poster.-.Group12.-.Train.project.with.force.sensors.pdf)
+![Poster - Group12 - Train project with force sensors](https://github.com/train-project-IOT/Take-A-Seat/assets/141609508/41f8a09b-8f37-4058-8034-0597881d182c)
 
 
 This project is part of ICST - The Interdisciplinary Center for Smart Technologies, Taub Faculty of Computer Science, Technion https://icst.cs.technion.ac.il/
