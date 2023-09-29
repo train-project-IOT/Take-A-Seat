@@ -40,4 +40,9 @@ Eventually, with our project, we'll be able prevent or at least minimize delays.
 
 ![Wiring_Diagram](https://github.com/train-project-IOT/Take-A-Seat/assets/141609508/f8e4d6eb-3a1f-425a-9a4d-d5d1f4d5422e)
 
+## Link To Project Video:
+
+https://drive.google.com/file/d/1B1wPRSnCdIMgr4LuFoWEbpA0scDJcD3G/view?usp=sharing
+
+
 This project is part of ICST - The Interdisciplinary Center for Smart Technologies, Taub Faculty of Computer Science, Technion https://icst.cs.technion.ac.il/
