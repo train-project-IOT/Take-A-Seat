@@ -4,6 +4,7 @@
 
 ## Details about the project:
 A Project in Internet of Things (IoT) - "Take A Seat".
+
 The goal of our project is to reduce the situations that cause train delays.
 With the help of force sensors installed on the seats of the train, we can know how many seats are available and how many are occupied in each car.
 We'll divide the train platform to zones of 3-4 cars.
