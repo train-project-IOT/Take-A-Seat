@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "293380560932",
+    "firebase_url": "https://train-project-iot-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "train-project-iot",
+    "storage_bucket": "train-project-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293380560932:android:b72c5cfdc0e5d4759d60b1",
+        "android_client_info": {
+          "package_name": "com.technion.iot.train.train"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293380560932-cg47erfe4em2j0tedhvan87v1o9mfugh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0puHovlygpakDotUKxPwAB1_9XSpebeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293380560932-cg47erfe4em2j0tedhvan87v1o9mfugh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
