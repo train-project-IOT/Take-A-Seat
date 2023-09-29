@@ -45,4 +45,5 @@ Eventually, with our project, we'll be able prevent or at least minimize delays.
 https://drive.google.com/file/d/1B1wPRSnCdIMgr4LuFoWEbpA0scDJcD3G/view?usp=sharing
 
 
+
 This project is part of ICST - The Interdisciplinary Center for Smart Technologies, Taub Faculty of Computer Science, Technion https://icst.cs.technion.ac.il/
