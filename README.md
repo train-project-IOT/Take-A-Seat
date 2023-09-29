@@ -18,7 +18,7 @@ Eventually, with our project, we'll be able prevent or at least minimize delays.
 - firebase: initialization for our firebase.
 - Unit Tests: tests for force_sensor.
 - Parameters: contains description of configurable parameters.
-- Documentation: wiring diagram and project poster.
+- Documentation: wiring diagram, project poster and link to project video.
 - Assets: logo and screens that will be displayed at the train platform.
 - Simulation: simulation analyzation and final report.
 
