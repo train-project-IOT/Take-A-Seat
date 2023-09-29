@@ -1,19 +1,21 @@
-The parameters are at the top of the ESP32 code :
+# The parameters are at the top of the ESP32 code :
 
-NUM_OF_SEATS : It is set to be 4, the number of seats that we physically implemented and for which hardware exists
+- NUM_OF_SEATS: It is set to be 4, the number of seats that we physically implemented and for which hardware exists.
 
-is_sitting[NUM_OF_SEATS] : An array describing the four physically available seats, the array reflects in a boolean manner (0 or 1) whether the seat is free (0) or occupied (1).
-						   At the beginning all are set to be 0 , as free seats.
+- is_sitting[NUM_OF_SEATS]: An array describing the four physically available seats, 
+			the array reflects in a boolean manner (0 or 1) whether the seat is free (0) or occupied (1).
+			At the beginning all are set to be 0 , as free seats.
 
-force_sensor_pins[NUM_OF_SEATS] : Is set to be {32, 34, 33, 36}.
-								  An array that defines the ID of the pins through which the output from the sensors will be read, each ID corresponds to the measurement of one of the sensors,
-								  we will sample the output from the corresponding pin in the ESP32 and receive information as to whether the corresponding seat is free or occupied.
+- force_sensor_pins[NUM_OF_SEATS]: Is set to be {32, 34, 33, 36}.
+			An array that defines the ID of the pins through which the output from the sensors will be read, 
+			each ID corresponds to the measurement of one of the sensors,
+			we will sample the output from the corresponding pin in the ESP32 and receive information as to whether the corresponding seat is free or occupied.
 
-analogReadings[NUM_OF_SEATS] : An array that stores the value read from each of the pins for each of the seats from the car, 
-							   if less than the threshold value the seat is free, if greater than the threshold value the seat is occupied.
+- analogReadings[NUM_OF_SEATS]: An array that stores the value read from each of the pins for each of the seats from the car, 
+			if less than the threshold value the seat is free, if greater than the threshold value the seat is occupied.
 
-READING_FREQUENCY : set to 3 seconds, the frequency with which the sensors are called,
-					every three seconds the program rechecks for each of the chairs if it is free or occupied.
+- READING_FREQUENCY: set to 3 seconds, the frequency with which the sensors are called,
+			every three seconds the program rechecks for each of the chairs if it is free or occupied.
 
-THRESHOLD_VALUE : Set to be 500, the threshold value was chosen after optimal adaptation tests to the weight of a person on a seat.
-				  The value measured from each pin will be checked against the threshold value and thus it will be decided whether the seat is free or occupied.
+- THRESHOLD_VALUE: Set to be 500, the threshold value was chosen after optimal adaptation tests to the weight of a person on a seat.
+			The value measured from each pin will be checked against the threshold value and thus it will be decided whether the seat is free or occupied.
