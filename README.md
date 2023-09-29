@@ -4,24 +4,25 @@
 
 ## Details about the project:
 A Project in Internet of Things (IoT) - "Take A Seat".
-
 The goal of our project is to reduce the situations that cause train delays.
-With the help of force sensors installed on the seats in the train, we can know how many free seats and how many occupied seats there are in each car.
-Train platforms will be divided into zones so that in each zone there are several cars and in each zone a screen will be installed that will show how many free seats there are in the cars in that zone and how many.
-This will cause the people waiting at the platform to stand in a manner that corresponds to the actual available seats and be distributed to all areas and thus cause a faster boarding and the train doors to close faster and a faster departure of the train from the platform and thus prevent delays.
+With the help of force sensors installed on the seats of the train, we can know how many seats are available and how many are occupied in each car.
+We'll divide the train platform to zones of 3-4 cars.
+In each zone, a screen that displays the amount and locations of free seats will be installed.
+We assume, according to experiments, that displaying this data to the passengers will cause them to stand in a manner that corresponds to the actual available seats in each car and thus be distributed evenly in each area of the railway. This even distribution will result in faster boarding, the train doors to close faster and overall a faster departure of the train from the platform.
+Eventually, with our project, we'll be able prevent or at least minimize delays.
 
 ## Folder description:
-ESP32: source code for the esp side (firmware).
-Documentation: wiring diagram + basic operating instructions
-Unit Tests: tests for individual hardware components (input / output devices)
-flutter_app : dart code for our Flutter app.
-Parameters: contains description of configurable parameters
-Assets: 3D printed parts, Audio files used in this project,
+- ESP32: source code for the esp side (firmware).
+- flutter_app: dart code for our Flutter app.
+- firebase: initialization for our firebase.
+- Unit Tests: tests for force_sensor.
+- Parameters: contains description of configurable parameters.
+- Documentation: wiring diagram and project poster.
+- Assets: logo and screens that will be displayed at the train platform.
+- Simulation: simulation analyzation and final report.
 
 ## Arduino/ESP libraries installed and used for the project:
-XXXX - version XXXXX
-XXXX - version XXXXX
-XXXX - version XXXXX
+- Firebase Arduino Client Library for ESP8266 and ESP32 - version 2.3.7
 
 ## The Hardware list used in this project:
 - 1 ESP32 DEVKITV1
