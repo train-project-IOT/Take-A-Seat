@@ -34,7 +34,8 @@ Eventually, with our project, we'll be able prevent or at least minimize delays.
 
 ## Project Poster:
 
-![Group #12 -Train project with force sensors - IOT poster](https://github.com/train-project-IOT/Take-A-Seat/assets/141609508/e4c488ed-f0ba-40bd-9772-5bed4e921947)
+[Group #12 -Train project with force sensors - IOT poster .pdf](https://github.com/train-project-IOT/Take-A-Seat/files/12825518/Group.12.-Train.project.with.force.sensors.-.IOT.poster.pdf)
+
 
 ## Wiring Diagram:
 
